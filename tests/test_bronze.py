@@ -1,0 +1,1 @@
+# check for schema, nulls, row counts 
