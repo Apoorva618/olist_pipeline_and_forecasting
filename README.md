@@ -17,10 +17,8 @@ The end result is a **Streamlit application** where users can input order parame
 
 ## Medallion Architecture
 
-```
 <img width="2788" height="673" alt="olist_project_diagram" src="https://github.com/user-attachments/assets/151d7869-446d-40a2-8913-ac05d0aa81c2" />
 
-```
 
 ### Architecture Details
 
