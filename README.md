@@ -15,17 +15,14 @@ The end result is a **Streamlit application** where users can input order parame
 
 ---
 
-## Architecture
+## Medallion Architecture
 
 ```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                                                                             │
-│   Raw CSVs ──► Bronze ──► Silver ──► Gold ──► ML Models ──► Streamlit App  │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
+<img width="2788" height="673" alt="olist_project_diagram" src="https://github.com/user-attachments/assets/151d7869-446d-40a2-8913-ac05d0aa81c2" />
+
 ```
 
-### Medallion Architecture
+### Architecture Details
 
 | Layer | Purpose | Tables |
 |-------|---------|--------|
@@ -265,8 +262,8 @@ All table writes use `mode("overwrite")` with `overwriteSchema=True` for reprodu
 
 ## Author
 
-**Your Name**  
-[LinkedIn](https://linkedin.com/in/yourprofile) | [GitHub](https://github.com/yourusername)
+**Apoorva**  
+
 
 ---
 
